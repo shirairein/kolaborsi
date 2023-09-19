@@ -1,0 +1,227 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  color: white;
+  font-family: "Poppins" sans-serif;
+}
+body {
+  font-family: "Poppins";
+}
+
+.img {
+  width: 100%;
+  height: 1000px;
+  background-image: url(img/picture1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.text-center {
+  .h1 {
+    color: #fff;
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+  }
+  p {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: -29px;
+    align-self: stretch;
+    color: #fff;
+    font-size: 37.68px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+   z-index: 2;
+  }
+}
+
+.section {
+  background-color: black;
+
+  .kelas {
+    width: 100%;
+    display: flex;
+    .teks {
+      p {
+        margin-top: 17px;
+        margin-bottom: 63px;
+      }
+      h1 {
+        font-weight: 900;
+        text-align: left;
+      }
+
+      .icon-txt {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 22px;
+
+        svg {
+          margin-right: 10px;
+        }
+        .travel {
+          margin-right: 85px;
+        }
+      }
+    }
+  }
+}
+
+section {
+  background-color: black;
+  .container {
+    padding-bottom: 100px;
+    h1 {
+      color: #fff;
+      font-size: 42px;
+      font-style: normal;
+      font-weight: 900;
+      line-height: normal;
+      text-align: center;
+    }
+    h5 {
+      color: #fff;
+      font-size: 25px;
+      font-style: normal;
+      font-weight: 300;
+      line-height: normal;
+      text-align: center;
+    }
+    .row {
+      margin-top: 102px;
+      gap: 17px;
+      justify-content: center;
+      .col-md-3 {
+        align-items: center;
+        padding: 0px;
+        width: 267px;
+        height: 497px;
+        h2 {
+          padding-top: 30px;
+          text-align: center;
+        }
+        p {
+          padding-top: 8px;
+          text-align: center;
+        }
+      }
+      .gede {
+        width: 308px;
+        height: 463px;
+        position: relative;
+        bottom: 31px;
+        img {
+          width: 308px;
+          height: 463px;
+        }
+      }
+    }
+  }
+  @media (max-width: 991.98px) {
+    .gede {
+      margin: 80px auto;
+      position: static;
+    }
+  }
+}
+
+section {
+  background-color: black;
+  .container {
+    h1 {
+      padding-bottom: 20px;
+    }
+    .p {
+      font-weight: 400;
+      font-size: 20px;
+    }
+    .gap {
+      gap: 109px;
+
+      .col-md-4 {
+        width: 325px;
+        height: 225px;
+        h4 {
+          font-weight: 700;
+          font-size: 20px;
+        }
+        img {
+          padding-bottom: 38px;
+          display: flex;
+          margin: auto;
+        }
+        p {
+          letter-spacing: 2px;
+          padding-top: 20px;
+        }
+      }
+    }
+  }
+}
+
+footer {
+  background-color: black;
+  .container {
+    padding: 52px 0;
+    .row {
+      .foot {
+        padding-right: 120px;
+        h1 {
+          font-size: 42px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: normal;
+        }
+      }
+      p {
+        font-size: 20px;
+      }
+
+      h5 {
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 27px;
+        letter-spacing: 0em;
+        text-align: left;
+        padding-top: 104px;
+      }
+    }
+    .col-md-3 {
+      h1 {
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        padding-bottom: 29px;
+      }
+      p {
+        padding-right: 30px;
+        line-height: 50px;
+      }
+      .icon {
+        padding-top: 40px;
+        a {
+          text-decoration: none;
+        }
+      }
+    }
+
+    .col-md-2 {
+      h1 {
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        padding-bottom: 29px;
+      }
+      p {
+        padding-right: 30px;
+        line-height: 50px;
+      }
+    }
+  }
+}
